@@ -106,7 +106,7 @@
 
     .main{
         min-width: 100%;
-        background-color: rgb(134, 201, 233);
+        background-color:  rgb(214, 222, 232);
         min-height: 700px;
         display: flex;
         justify-content: center;
@@ -136,7 +136,7 @@
                 &-button{
                   
                     padding: 15px 35px;
-                    background-color: rgb(6, 12, 158);
+                    background-color:  rgb(6, 47, 100);
                     cursor: pointer;
                     transform: rotate(360);
                     border-radius: 10px;
@@ -154,7 +154,7 @@
                 }
                 &-button:hover{
                     box-shadow: 5px 5px 20px 2px;
-                    color: rgb(33, 137, 242);
+                    color:  rgb(6, 47, 100);
 
                    
                 }
@@ -401,7 +401,7 @@
 
     .order__section{
         width: 100%;
-        background-color: blue;
+        background-color: rgb(15, 33, 56);
         height: 100px;
         display: flex;
         justify-content: center;
@@ -416,4 +416,138 @@
     }
 
    
+
+           //--second Card----
+.secondcard{
+    &-div{
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     padding: 40px;
+    &__left{
+        gap: 30px;
+        width: 30%;
+        display: flex;
+
+        &-img{
+            width: 50%;
+
+        }
+        &-text{
+            width: 50%;
+            display: inline;
+            &-button{
+                width: 60%;
+                height: 50px;
+                color: white;
+                background-color: rgb(6, 47, 100);
+                border-color: rgb(15, 33, 56) ;
+            }
+
+        }
+
+    }
+    &__right{
+        gap: 30px;
+        width: 30%;
+        display: flex;
+        &-img{
+            width: 50%;
+
+        }
+        &-text{
+            width: 50%;
+            display: inline;
+            &-button{
+                width: 60%;
+                height: 50px;
+                color: white;
+                background-color: rgb(6, 47, 100);
+                border-color: rgb(15, 33, 56);
+
+            }
+
+        }
+
+    }
+}
+}
+                 //--footer-----
+.footer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 90px;
+    flex-direction: column;
+    background-color: rgb(15, 33, 56);
+    &__ust{
+        justify-content: center;
+        gap: 99px;
+        width: 100%;
+        display: flex;
+        &-about{
+            color: white;
+
+        }
+        &-email{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            gap: 20px;
+            &-div{
+                width: 100%;
+
+            }
+            &-button{
+                height: 30px;
+                width: 70px;
+                background-color:rgb(74, 104, 143) ;
+                color: white;
+                border-color: rgb(15, 33, 56);
+            }
+
+        }
+
+    }
+    &__alt{
+        width: 100%;
+        gap: 90px;
+        display: flex;
+         padding: 150px;
+        &-adress{
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+        &-contact{
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+        &-follow{
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+        &-info{
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+        }
+        a{
+            color: white;
+        }
+        
+    }
+}
+
+
+
+
+
+
 }
