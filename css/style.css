@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container #navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.container #navbar .navbar {
+  width: 70%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.container #navbar .navbar__logo {
+  width: 100px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #navbar .navbar__logo-text {
+  font-size: 25px;
+}
+.container #navbar .navbar__about {
+  width: 60%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #navbar .navbar__about-ul {
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #navbar .navbar__about-ul-list a {
+  color: gray;
+  font-size: 15px;
+  padding: 20px;
+  text-decoration: none;
+}
+.container #navbar .navbar__about-ul-list a span:hover {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+}
+.container #navbar .navbar__basket {
+  width: 10%;
+  min-height: 50px;
+}
+.container #navbar .navbar__basket-icon {
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container #navbar .navbar__basket-icon a {
+  color: gray;
+}
+.container .main {
+  min-width: 100%;
+  background-color: rgb(134, 201, 233);
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .main__left {
+  width: 35%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .main__left-container {
+  width: 75%;
+  height: 400px;
+}
+.container .main__left-container-text {
+  font-size: 60px;
+}
+.container .main__left-container-button {
+  padding: 15px 35px;
+  background-color: rgb(6, 12, 158);
+  cursor: pointer;
+  transform: rotate(360);
+  border-radius: 10px;
+}
+.container .main__left-container-button a {
+  font-size: 15px;
+  color: white;
+}
+.container .main__left-container-button:hover {
+  box-shadow: 5px 5px 20px 2px;
+  color: rgb(33, 137, 242);
+}
+.container .main__right {
+  width: 35%;
+  height: 700px;
+  background-color: purple;
+  background-image: url("../assets/main-right-boy.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .card {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+}
+.container .card__list {
+  width: 70%;
+  height: 800px;
+  background-color: white;
+}
+.container .card__list-item {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.container .card__list-item-sweater {
+  width: 32%;
+  height: 600px;
+}
+.container .card__list-item-sweater-img {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/sweater.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container .card__list-item-sweater-img span {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.container .card__list-item-sweater-text-head-first {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.container .card__list-item-sweater-text-price del {
+  color: gray;
+}
+.container .card__list-item-jacket {
+  width: 32%;
+  height: 600px;
+}
+.container .card__list-item-jacket-img {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/jacket.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container .card__list-item-jacket-img span {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.container .card__list-item-jacket-text-head-first {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.container .card__list-item-jacket-text-price del {
+  color: gray;
+}
+.container .card__list-item-hat {
+  width: 32%;
+  height: 600px;
+}
+.container .card__list-item-hat-img {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/hat.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container .card__list-item-hat-img span {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.container .card__list-item-hat-text-head-first {
+  margin-top: 10px;
+  font-size: 25px;
+}
+.container .card__list-item-hat-text-price del {
+  color: gray;
+}
+.container .card__list-item-sweater:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 5px 5px 20px 10px;
+}
+.container .card__list-item-jacket:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 5px 5px 20px 10px;
+}
+.container .card__list-item-hat:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 5px 5px 20px 10px;
+}
+.container .card__list-button {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .card__list-button-text {
+  background-color: rgb(56, 56, 133);
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+.container .card__list-button-text:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px black;
+}
+.container .order__section {
+  width: 100%;
+  background-color: blue;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .order__section b {
+  font-size: 45px;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
