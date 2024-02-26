@@ -424,17 +424,25 @@
      width: 100%;
      justify-content: center;
      padding: 40px;
+     gap: 60px;
     &__left{
         gap: 30px;
         width: 30%;
         display: flex;
 
         &-img{
-            width: 50%;
+             
 
         }
+        &-div{
+            height: 97%;
+            width: 86%;
+          display: flex;
+          align-items: flex-end;
+        
         &-text{
-            width: 50%;
+             
+             width: 132px;
             display: inline;
             &-button{
                 width: 60%;
@@ -445,6 +453,7 @@
             }
 
         }
+    }
 
     }
     &__right{
@@ -452,22 +461,34 @@
         width: 30%;
         display: flex;
         &-img{
-            width: 50%;
-
+             
+             height: 391px;
+             width: 276px;
+             margin: -30px;
+             display: flex;
+             align-items: flex-end;
         }
+        &-div{
+            display: flex;
+            align-items: flex-end;
+  
+         
         &-text{
-            width: 50%;
             display: inline;
+            width: 197px;
+             
             &-button{
                 width: 60%;
                 height: 50px;
                 color: white;
                 background-color: rgb(6, 47, 100);
                 border-color: rgb(15, 33, 56);
+                
 
             }
 
         }
+    }
 
     }
 }
@@ -482,8 +503,8 @@
     background-color: rgb(15, 33, 56);
     &__ust{
         justify-content: center;
-        gap: 99px;
-        width: 100%;
+        gap: 120px;
+        width: 70%;
         display: flex;
         &-about{
             color: white;
@@ -496,6 +517,7 @@
             gap: 20px;
             &-div{
                 width: 100%;
+                 
 
             }
             &-button{
@@ -504,16 +526,19 @@
                 background-color:rgb(74, 104, 143) ;
                 color: white;
                 border-color: rgb(15, 33, 56);
+                 :hover{
+                    box-shadow: 5px 5px 5px black ;
+                 }
             }
 
         }
 
     }
     &__alt{
-        width: 100%;
+        width: 70%;
         gap: 90px;
         display: flex;
-         padding: 150px;
+         padding: 129px;
         &-adress{
             color: white;
             display: flex;
